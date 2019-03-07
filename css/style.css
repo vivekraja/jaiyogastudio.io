@@ -78,14 +78,14 @@ a:focus{
 }
 .agile_header_right ul li i{
 	padding-right:1.5em;
-	color:#0accff;
+	color:#6ba51e;
 }
 .agile_header_right ul li a{
 	color:#fff;
 	text-decoration:none;
 }
 .agile_header_right ul li a:hover{
-	color:#0accff;
+	color:#6ba51e;
 }
 .agile_header_right ul li a:before,.agile_header_right ul li a:after{
 	display:none;
@@ -113,23 +113,26 @@ a:focus{
 	display: block;
     font-size: .3em;
     font-weight: 600;
-    color:#0accff;
+    color:#fff;
     position: relative;
     letter-spacing: 10px;
 }
 .w3_agileits_logo h1 a span:before,.w3_agileits_logo h1 a span:after{
 	content: '';
-    background: #fddd22;
-    height: 2px;
+    background: #6ba51e;
+	height: 2px;
+	margin: 2px;
     width: 20%;
     position: absolute;
-    top: 45%;
+	top: 45%;
+
+
 }
 .w3_agileits_logo h1 a span:before{
-	left:5%;
+	left:0%;
 }
 .w3_agileits_logo h1 a span:after{
-	right:7%;
+	right:0%;
 }
 .agileits_w3layouts_banner_info{
 	width:80%;
@@ -170,17 +173,17 @@ a:focus{
 	outline: none;
     width: 22%;
     padding: 15px 0;
-    background: #fddd22;
+    background: #6ba51e;
     color: #212121;
-    border: 1px solid #fddd22;
+    border: 1px solid #6ba51e;
     font-size: 14px;
     text-transform: uppercase;
     font-weight: 600;
     letter-spacing: 2px;
 }
 .agileits_w3layouts_banner_info input[type="submit"]:hover{
-	background:#0accff;
-	border-color:#0accff;
+	background:#6ba51e;
+	border-color:#6ba51e;
 }
 /*-- nav --*/
 .navbar-default {
@@ -197,7 +200,7 @@ a:focus{
     margin-right: 0;
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-    color:#fddd22;
+    color:#6ba51e;
     background:none;
 }
 .navbar-default .navbar-nav > li > a {
@@ -210,7 +213,7 @@ a:focus{
     text-transform: uppercase;
 }
 .navbar-default .navbar-nav > li > a:hover{
-    color:#fddd22;
+    color:#6ba51e;
 }
 .navbar-default .navbar-nav > li > a:focus {
     color: #fff;
@@ -220,7 +223,7 @@ a:focus{
     margin:0;
 }
 .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
-    color:#0accff;
+    color:#6ba51e;
     background: none;
 }
 .navbar-default .navbar-nav > li > a {
@@ -274,8 +277,8 @@ a:focus{
   position: absolute;
   left: 0;
   top: 0;
-  border-top: 2px solid #fddd22;
-  border-left: 2px solid #fddd22;
+  border-top: 2px solid #6ba51e;
+  border-left: 2px solid #6ba51e;
   -moz-transition: 0.3s;
   -o-transition: 0.3s;
   -webkit-transition: 0.3s;
@@ -290,8 +293,8 @@ a:focus{
   position: absolute;
   right: 0;
   bottom: 0;
-  border-right: 2px solid #fddd22;
-  border-bottom: 2px solid #fddd22;
+  border-right: 2px solid #6ba51e;
+  border-bottom: 2px solid #6ba51e;
   -moz-transition: 0.3s;
   -o-transition: 0.3s;
   -webkit-transition: 0.3s;
@@ -306,8 +309,8 @@ a:focus{
   position: absolute;
   right: 0;
   top: 0;
-  border-right: 2px solid #fddd22;
-  border-top: 2px solid #fddd22;
+  border-right: 2px solid #6ba51e;
+  border-top: 2px solid #6ba51e;
   -moz-transition: 0.3s;
   -o-transition: 0.3s;
   -webkit-transition: 0.3s;
@@ -322,8 +325,8 @@ a:focus{
   position: absolute;
   left: 0;
   bottom: 0;
-  border-left: 2px solid #fddd22;
-  border-bottom: 2px solid #fddd22;
+  border-left: 2px solid #6ba51e;
+  border-bottom: 2px solid #6ba51e;
   -moz-transition: 0.3s;
   -o-transition: 0.3s;
   -webkit-transition: 0.3s;
@@ -362,7 +365,7 @@ a:focus{
     font-size: 1em;
     color: #212121;
     padding: .5em;
-    background: #fddd22;
+    background: #6ba51e;
     width: 13%;
     margin: 0 auto 2em;
     letter-spacing: 2px;
@@ -375,7 +378,7 @@ a:focus{
     text-align: center;
 }
 .w3layouts_head span{
-	color:#58d3f3;
+	color:#6ba51e;
 }
 .w3_para{
 	color:#999;
@@ -520,7 +523,7 @@ a:focus{
 }
 .w3_agileits_services_bottom_r_grid{
 	padding:4em 4em 0;
-    background: #fddd22;
+    background: #6ba51e;
     min-height: 307px;
 }
 .w3_agileits_services_bottom_r_grid h4{
@@ -644,7 +647,7 @@ a:focus{
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 5px;
-    background:#58d3f3;
+    background:#6ba51e;
 }
 .close {
     opacity: 1;
@@ -796,7 +799,7 @@ a.w3_agile_vimeo:hover{
     margin: 1.5em 0 .2em;
 }
 .w3_agile_team_grid p{
-	color:#58d3f3;
+	color:#6ba51e;
 }
 /*-- //team --*/
 /*-- register --*/
@@ -827,7 +830,7 @@ a.w3_agile_vimeo:hover{
 }
 .agile_register_grid h4{
 	text-align:center;
-	color:#58d3f3;
+	color:#6ba51e;
 	font-size:1.2em;
 	text-transform:uppercase;
 }
@@ -873,7 +876,7 @@ a.w3_agile_vimeo:hover{
     border-radius: 90px;
     box-shadow: 0 0 10px rgba(199, 199, 199, 0.32);
     color: #212121;
-    border: 2px solid #fddd22;
+    border: 2px solid #6ba51e
 	font-style:normal;
 }
 
@@ -892,7 +895,7 @@ a.w3_agile_vimeo:hover{
 /*-- //countdown --*/
 .agileits_w3layouts_book{
 	padding:3em 0;
-	background:#58d3f3;
+	background:#6ba51e;
 }
 .agileits_w3layouts_book_left{
 	float:left;
@@ -957,7 +960,7 @@ a.w3_agile_vimeo:hover{
     color: #212121;
     padding: 13.2px 0;
     width: 18%;
-    background: #fddd22;
+    background: #6ba51e;
 }
 .agileits_user i {
     width: 10% !important;
@@ -978,12 +981,12 @@ a.w3_agile_vimeo:hover{
     color: #fff;
     border: none;
     width: 39%;
-    background: #58d3f3;
+    background: #6ba51e;
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 3px;
 }
 .agileits_modal_body input[type="submit"]:hover{
-	background:#fddd22;
+	background:#6ba51e;
 	color:#212121;
 }
 /*-- //register --*/
@@ -999,7 +1002,7 @@ a.w3_agile_vimeo:hover{
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
     color: #fff;
     cursor: default;
-    background-color:#fddd22;
+    background-color:#6ba51e;
     border: none;
     border-bottom-color: transparent;
 }
@@ -1057,7 +1060,7 @@ a.w3_agile_vimeo:hover{
     text-align: center;
 }
 .w3_agileits_counter_grid{
-	background:#58d3f3;
+	background:#6ba51e;
 	width: 80px;
     height: 80px;
 }
@@ -1071,14 +1074,14 @@ a.w3_agile_vimeo:hover{
 }
 .agile_class{
 	padding:10px 30px;
-	background:#58d3f3;
+	background:#6ba51e;
 	color:#fff;
 	font-size:1em;
 	text-decoration:none;
 	font-family: 'Montserrat', sans-serif;
 }
 .agile_class:hover{
-	background:#fddd22;
+	background:#6ba51e;
 	color:#212121;
 }
 .w3_agileits_class_grid{
@@ -1101,11 +1104,11 @@ a.w3_agile_vimeo:hover{
     text-decoration: none;
 }
 .w3_agileits_class_grid h4 a:hover,.w3_agile_class_grid:hover .w3_agileits_class_grid h4 a{
-	color:#58d3f3;
+	color:#6ba51e;
 }
 .w3_agileits_class_grid h5{
 	font-size:1em;
-	color:#fddd22;
+	color:#6ba51e;
 }
 .w3_agileits_class_grid_pos{
 	position: absolute;
@@ -1128,14 +1131,14 @@ a.w3_agile_vimeo:hover{
 }
 .agileits_w3layouts_class_pos ul li i{
 	padding-right:1em;
-	color:#58d3f3;
+	color:#6ba51e;
 }
 .agileits_w3layouts_class_pos ul li a{
 	color:#fff;
 	text-decoration:none;
 }
 .agileits_w3layouts_class_pos ul li a:hover{
-	color:#58d3f3;
+	color:#6ba51e;
 }
 .agileits_w3layouts_class_pos ul li:nth-child(2){
 	margin:0 1.5em;
@@ -1206,9 +1209,9 @@ a.w3_agile_vimeo:hover{
 	content:"\f054";
 }
 .nbs-flexisel-nav-left:hover,.nbs-flexisel-nav-right:hover{
-	background:#58d3f3;
+	background:#6ba51e;
 	color:#fff;
-	border-color:#58d3f3;
+	border-color:#6ba51e;
 }
 /*--//flexisel--*/
 /*-- testimonials --*/
@@ -1372,8 +1375,8 @@ a.w3_agile_vimeo:hover{
     outline: none;
 }
 .slick-prev:hover,.slick-next:hover{
-	background:#fddd22;
-	border-color:#fddd22;
+	background:#6ba51e;
+	border-color:#6ba51e;
 	color:#212121;
 }
 .slick-prev:hover:before,
@@ -1508,7 +1511,7 @@ a.w3_agile_vimeo:hover{
 .slick-dots li.slick-active button:before
 {
     opacity: .75;
-    color: #58d3f3;
+    color: #6ba51e;
 }
 .w3l_testimonial_grid{
 	padding: 3em 2.5em 2em;
@@ -1552,7 +1555,7 @@ a.w3_agile_vimeo:hover{
 }
 .agileits_testimonial_grid h5{
 	font-size:.8em;
-	color:#58d3f3;
+	color:#6ba51e;
 }
 .agileinfo_testimonial_grids{
 	width:80%;
@@ -1607,7 +1610,7 @@ a.w3_agile_vimeo:hover{
 }
 .w3layouts_mail_grid_left h3:after,.wthree_mail_pos h3:after{
 	content: '';
-    background: #fddd22;
+    background: #6ba51e;
     width: 20%;
     height: 2px;
     position: absolute;
@@ -1687,7 +1690,7 @@ a.w3_agile_vimeo:hover{
 .wthree_mail_pos input[type="submit"]{
 	outline: none;
     padding: 15px 0;
-    background: url(../images/6.png) no-repeat center center #58d3f3;
+    background: url(../images/6.png) no-repeat center center #6ba51e;
     width: 100%;
     border: none;
     min-height: 540px;
@@ -1711,7 +1714,7 @@ a.w3_agile_vimeo:hover{
 	text-align:center;
 }
 .w3_agile_copyright p a{
-	color:#fddd22;
+	color:#6ba51e;
 	text-decoration:underline;
 }
 .w3_agile_copyright p a:hover{

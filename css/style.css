@@ -450,7 +450,7 @@ a:focus{
 /*-- //banner-bottom --*/
 /*-- about --*/
 #about{
-	margin: 5em 0 5em 0;
+	margin: 5em 0 0 0;
 	color: #666;
 	line-height: 2em;
 	text-align: left;
@@ -613,7 +613,7 @@ a:focus{
 	-ms-transform: scaleX(1);
 }
 .w3_agile_services_bottom_right_grid{
-	background: url(../images/4.4.jpg) no-repeat 0px 0px;
+	background: url(../images/Asana_1.jpg) no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -621,7 +621,7 @@ a:focus{
     -o-background-size: cover;
 }
 .w3_agile_services_bottom_right_grid1{
-	background: url(../images/3.3.jpg) no-repeat 0px -30px;
+	background: url(../images/Asana_2.jpg) no-repeat 0px -30px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -629,7 +629,7 @@ a:focus{
     -o-background-size: cover;
 }
 .w3_agile_services_bottom_right_grid2{
-	background: url(../images/5.5.jpg) no-repeat 0px 0px;
+	background: url(../images/Asana_3.jpg) no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -2988,7 +2988,9 @@ img {
 
 }
 .section-padding {
-
-    padding: 60px 0;
-
+    padding: 60px 0 0 0;
+}
+.modal-dialog {
+    width: 80%;
+	margin: 30px auto;
 }

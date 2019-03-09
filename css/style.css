@@ -100,7 +100,7 @@ a:focus{
 }
 .w3_agileits_logo h1 a{
 	font-size: 2em;
-    color: #fff;
+    color: #6ba51e;
     display: block;
     text-decoration: none;
     text-transform: uppercase;
@@ -120,8 +120,8 @@ a:focus{
 .w3_agileits_logo h1 a span:before,.w3_agileits_logo h1 a span:after{
 	content: '';
     background: #6ba51e;
-	height: 2px;
-	margin: 2px;
+	height: 4px;
+	margin: 0px;
     width: 20%;
     position: absolute;
 	top: 45%;
@@ -200,7 +200,7 @@ a:focus{
     margin-right: 0;
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-    color:#6ba51e;
+    color:#fff;
     background:none;
 }
 .navbar-default .navbar-nav > li > a {
@@ -223,7 +223,7 @@ a:focus{
     margin:0;
 }
 .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
-    color:#6ba51e;
+    color:#fff;
     background: none;
 }
 .navbar-default .navbar-nav > li > a {
@@ -363,13 +363,17 @@ a:focus{
 .w3l_lotus{
 	text-align: center;
     font-size: 1em;
-    color: #212121;
+    color: #fff;
     padding: .5em;
-    background: #6ba51e;
+	background: #6ba51e;
+	height: 15%;
     width: 13%;
     margin: 0 auto 2em;
     letter-spacing: 2px;
     text-transform: capitalize;
+}
+.w3l_lotus,  a {
+	color: #fff;
 }
 .w3layouts_head{
 	text-transform: capitalize;
@@ -447,7 +451,17 @@ a:focus{
 /*-- about --*/
 #about{
 	margin: 5em 0 5em 0;
+	color: #666;
+	line-height: 2em;
+	text-align: left;
 }
+#abt{
+	text-transform: capitalize;
+	font-size: 2.5em;
+	color: #333;
+	text-align: left;
+}
+
 .about-profile { 
 	position:relative; 
 	margin:20px 0 30px 0; 
@@ -2301,7 +2315,7 @@ a.w3_agile_vimeo:hover{
 @media (max-width: 667px){
 	.w3_agileits_logo h1 a {
 		font-size: 1.3em;
-		background: url(../images/1.png) no-repeat center 0px;
+		/*background: url(../images/1.png) no-repeat center 0px;*/
 		background-size: 19%;
 		padding-top: 1.5em;
 	}
@@ -2964,4 +2978,17 @@ a.w3_agile_vimeo:hover{
 		padding: 10px;
 		font-size: 13px;
 	}
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+img {
+    vertical-align: middle;
+
+}
+.section-padding {
+
+    padding: 60px 0;
+
 }

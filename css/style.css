@@ -2189,10 +2189,10 @@ a.w3_agile_vimeo:hover{
 		width: 46%;
 	}
 	.w3_agileits_logo h1 a span:before {
-		left: 2%;
+		left: 0%;
 	}
 	.w3_agileits_logo h1 a span:after {
-		right: 4%;
+		right: 1%;
 	}
 	.w3_agileits_services_bottom_r_grid p {
 		margin: 1.36em 0;
@@ -2633,14 +2633,15 @@ a.w3_agile_vimeo:hover{
 	}
 }
 @media (max-width: 414px){
+
 	.w3_agileits_logo h1 a {
 		font-size: 1.1em;
 	}
 	.w3_agileits_logo h1 a span:before {
-		left: -1%;
+		left: -7%;
 	}
 	.w3_agileits_logo h1 a span:after {
-		right: 2%;
+		right: -4%;
 	}
 	.agileits_w3layouts_banner_info {
 		width: 95%;
@@ -2710,6 +2711,9 @@ a.w3_agile_vimeo:hover{
 	}
 	.w3l_testimonial_grid_pos {
 		top: -27%;
+	}
+	.w3l_testimonial_grid_pos img{
+		margin: 50px auto;
 	}
 	.agileits_mail_grid_left ul li label {
 		font-size: 1.2em;

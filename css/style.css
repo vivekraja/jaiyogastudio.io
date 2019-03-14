@@ -547,13 +547,13 @@ a:focus{
 	text-transform: uppercase;
     letter-spacing: 1px;
     font-size: 1.5em;
-    color: #212121;
+    color: #fff;
     position: relative;
     padding-bottom: 1em;
 }
 .w3_agileits_services_bottom_r_grid h4:after{
 	content: '';
-    background:#212121;
+    background: #fff;
     width: 30%;
     height: 4px;
     position: absolute;
@@ -561,7 +561,7 @@ a:focus{
     left: 0%;
 }
 .w3_agileits_services_bottom_r_grid p{
-	color: #525a45;
+	color: #fff;
     line-height: 2em;
     margin:3em 0 2em;
 }
@@ -570,7 +570,7 @@ a:focus{
 }
 .agileits_w3layouts_more a{
 	font-size:1em;
-	color:#212121;
+	color:#fff;
 	font-weight:600;
 	text-decoration:none;
 }
